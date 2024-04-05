@@ -5,7 +5,8 @@ fn main() {
     println!("x = {0} y = {1}" , x , y);
     xyz();
     mutualble_variable();
-    rust_constants()
+    rust_constants();
+    conversion();
 }    
 
 
@@ -26,6 +27,14 @@ fn rust_constants () {
     const PI : f64 = 3.14;
     println!("Value of Pie is = {}" , PI);
 
+}
+
+
+
+fn conversion() {
+    let x : f64 = 54.321 ; 
+    let i = x as u16;
+    println!("i = {0}" , i)
 }
 
 
